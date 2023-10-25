@@ -1,0 +1,171 @@
+header{
+    background-color: #782221;
+    height: 250px;
+    width: 1160px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 20px;
+    padding-top: 20px;
+   
+   
+}
+.photo_de_profil{
+    display: flex;
+    justify-content:center;
+    overflow:hidden;
+    width: 110px;
+    border-radius:50px;
+    -webkit-filter: drop-shadow(5px 5px 5px #666666);
+        filter: drop-shadow(5px 5px 5px #666666);
+        -ms-transform: scale(1.5); /* IE 9 */
+        -webkit-transform: scale(1.5); /* Safari 3-8 */
+        transform: scale(1.5);
+   
+}
+
+    
+
+h2{
+    display: flex;
+    justify-content: center;
+    color: white;
+}
+
+h3{
+    display: flex;
+    justify-content: center;
+    color: white;
+
+}
+
+/*EN TETE AVEC ADRESSE EMAIL ADRESSE NUMERO*/
+
+.en_tête_cv{
+    background-color: #2c1d27;
+    height: 80px;
+    width: 1160px;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+
+.adresse{
+    color: white;
+    padding-bottom: 20px;
+    padding-top: 20px; 
+    padding-left: 40px;
+    justify-content: center;
+    
+    
+   
+}
+
+.email{
+    color: white;
+    text-decoration: underline;
+    
+}
+.numéro{
+    color: white;
+    position: relative;
+}
+
+section{
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    height:1200px ;
+    width: 1160px;
+    margin-left: auto;
+    margin-right: auto;
+    overflow: hidden;
+}
+
+@font-face {
+    font-family: Raleway;
+    src: url(./FONT/Lato-Black.ttf) format('truetype'); 
+    src: url(./FONT/Lato-Black.woff);
+}
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;900&family=Raleway:wght@100&display=swap');
+
+.Partie_gauche_du_cv{
+    background-color: #782221;
+    height: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.A_propos{
+    background-color:#dbc2a4 ;
+    margin-right: 900px;
+    font-family:"Lato" , sans-serif ;
+}
+.langues_parlées{
+    font-family:"Lato" , sans-serif ;
+    margin-right: 900px; 
+    background-color:#dbc2a4 ;
+}
+.centres_d_intérêt{
+    font-family:"Lato" , sans-serif ;
+    background-color: #dbc2a4;
+    margin-right: 900px;
+    
+}
+p{
+    font-family:"Raleway" , serif;
+    text-indent: 50px;
+    color: white;
+}
+li{
+    font-family:"Raleway" , serif;
+    color: white;
+    margin-left: 20px;
+}
+
+
+.Partie_droite_du_cv{
+    background-color:white;
+    font-family:"Raleway" , serif ;
+    height: 1200px;
+    width:800px ;
+    margin-left: 355px;
+    border-right-style: solid;
+    border-color: black;
+    position: relative;
+    left: 0%;
+    top: -45.5%;
+
+
+}
+
+.Expériences_professionnelles{
+    color: black;
+    background-color: #dbc2a4;
+    font-family:"Raleway" , serif ;
+
+}
+.diplôme_formations{
+    color: black;
+    background-color: #dbc2a4;
+    font-family:"Raleway" , serif ;
+
+}
+
+.Compétences{
+    color: black;
+    background-color: #dbc2a4;
+    font-family:"Raleway" , serif ;
+
+}
+
+
+footer{
+    background-color: #782221;
+    height: 90px;
+    width: 1160px;
+    margin-left: auto;
+    margin-right: auto; 
+    display: flex;
+    justify-content: center;
+   
+}
